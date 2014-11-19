@@ -1,0 +1,248 @@
+* {
+	margin:0;
+	padding:0;
+}
+body, html{
+	font-family: 'Lato', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	background:#EBE1F5;
+}
+
+#main-container {
+	margin: 10px;
+	border-radius: 10px;
+  	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  	-moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+  	box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+  	position: relative;
+  	z-index: 90;
+}
+
+.ribbon-wrapper {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: absolute;
+  top: -5px;
+  right: -3px;
+}
+
+.ribbon-development {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 7px 7px 25px;
+  left: 82px;
+  top: 49px;
+  width: 270px;
+  background-color: #BFDC7A;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); 
+  background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45); 
+  background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45); 
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-development:before, 
+.ribbon-development:after {
+  content: "";
+  border-top:   4px solid #6e8900;   
+  border-left:  4px solid transparent;
+  border-right: 4px solid transparent;
+  position:absolute;
+  bottom: -4px;
+}
+
+.ribbon-development:before {
+  left: 26px;
+}
+.ribbon-development:after {
+  right: 0px;
+}
+
+.row {
+	margin:0px;
+}
+#content {
+	width:70%;
+	border-radius: 20px;
+}
+
+#header-text{
+	color:#fff;
+	background-color: #7B318F;
+	padding:10px 0 10px 0;
+	margin-bottom:10px;
+}
+
+#content{
+	background: #fff;
+	padding:10px 20px;
+}
+
+.form-control:focus {
+	border-color: #FFD350;
+	box-shadow:none;
+}
+
+.control-label {
+	text-align: right;
+}
+
+#main-header {
+	padding:0;
+}
+
+.content-header{
+	border-bottom:#ddd solid 1px;
+}
+
+
+.points li{
+	margin-bottom:30px;
+}
+
+.points img{
+	float:left;
+	margin-right:7px;
+}
+
+
+.content-footer{
+	border-top:#ddd solid 1px;
+	margin:20px 0px 0 0;
+	padding:10px 0px;
+}
+
+h1{
+	font-size:35px;
+	line-height:1.2em;
+	color:#fff;
+}
+
+h3 {
+	font-size:20px;
+	font-style: italic;
+	margin:10px 0;
+	color:#6800AD;
+}
+
+h1, h4 {
+	font-weight: bold;
+}
+
+h4{
+	font-size:15px;
+	margin:10px 0;
+	font-style: italic;
+}
+
+label {
+	font-size: 1.1em;
+}
+
+.alert {
+	height:40px;
+	padding:5px 10px;
+	margin-bottom:5px;
+}
+
+
+#contact{
+
+	border:3px solid #D6B9E8;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	overflow:hidden;
+	background:#F5EFF8;
+}
+
+.form-group {
+	margin-bottom:10px;
+}
+.form-control {
+	font-size:0.9em;
+}
+
+#contact-form textarea{
+	resize: none;
+}
+
+#submit{
+	padding:10px 17px;
+	color:#6800AD;
+	background:#EBE1F5;
+	border-color:#6800AD;
+	height:50px;
+}
+
+
+#submit:hover{
+	background:#C48EE8;
+	cursor:pointer;
+}
+
+#testimonial{
+	padding:40px 0px 20px 0px;
+	color:#666;
+}
+
+#testimonial img {
+	opacity: 0.7;
+    vertical-align: middle;
+}
+
+#main-footer{
+	color:#aaa;
+	height:100px;
+	padding:20px;
+}
+
+.shadow
+{
+	position: relative;
+}
+
+.shadow:before, .shadow:after
+{
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 25px;
+	left: 10px;
+	width: 30%;
+	top: 85%;
+	max-width:300px;
+	background: #777;
+	-webkit-box-shadow: 0 35px 20px #777;
+	-moz-box-shadow: 0 35px 20px #777;
+	box-shadow: 0 35px 20px #777;
+	-webkit-transform: rotate(-8deg);
+	-moz-transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+}
+
+.shadow:after
+{
+	-webkit-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+	-o-transform: rotate(8deg);
+	-ms-transform: rotate(8deg);
+	transform: rotate(8deg);
+	right: 10px;
+	left: auto;
+}
