@@ -32,18 +32,17 @@ This page is a next shep in the big pogect that will grow to the functional onli
 
 Website will change its style and functionality as new features added.
  
-
-# Ready
+### Ready
 
 - The same page but styles hard-coded can be found on GitHub: https://github.com/YevKo/HTML5ResponsivePage and online: http://www.alittlestore.tk/mycontact.php
 
-# Updates
+### Updates
 
-Fisrt page sreated: 18.11.2014
+First page created: 18.11.2014
 
 This page created: 19.11.2014
 
-# Next To Do
+### Next To Do
 
 - Front page
 - Sample image (product) gallery with MySql connection and drag-and-drop uploading
