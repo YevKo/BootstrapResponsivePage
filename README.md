@@ -10,14 +10,17 @@ Contains:
 * Contact form with working functionality
 * Testimonials section
 
-## Technologies
+### Technologies
 
--- Email sending: PHP, jQuery and AJAX
--- HTML5, CSS3
--- Design: Bootstrap
+- Email sending: PHP, jQuery and AJAX
+- HTML5, CSS3
+- Design: Bootstrap
 
+### Live version of the page
 
-# Future project
+Online version: http://www.alittlestore.tk/contact.php
+
+## The project
 
 This page is a next shep in the big pogect that will grow to the functional online second-hand shop/ads board with:
 
@@ -29,27 +32,25 @@ This page is a next shep in the big pogect that will grow to the functional onli
 
 Website will change its style and functionality as new features added.
  
-# Updates
 
-Created: 19.11.2014
-
-## To do
-
-- Front page
-
-## Ready
+# Ready
 
 - The same page but styles hard-coded can be found on GitHub: https://github.com/YevKo/HTML5ResponsivePage and online: http://www.alittlestore.tk/mycontact.php
 
-## Will be done in the main project
+# Updates
 
+Fisrt page sreated: 18.11.2014
+
+This page created: 19.11.2014
+
+# Next To Do
+
+- Front page
 - Sample image (product) gallery with MySql connection and drag-and-drop uploading
 - Javascript game
 
 
-# Live version of the page
 
-Online version: http://www.alittlestore.tk/contact.php
 
 
   
